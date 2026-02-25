@@ -267,7 +267,7 @@
         "Azul Royal"
       ],
       "image_url": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=400",
-      "stock": 25,
+      "stock": 24,
       "brand": "Elegance",
       "gender": "feminino",
       "rating": 4.8,
@@ -852,6 +852,25 @@
       "status": "pendente",
       "total": 399.5,
       "created_at": "2026-02-24T22:24:30.519506",
+      "shipping_address": "Rua das Flores, 123 - São Paulo, SP"
+    },
+    {
+      "id": "81ba96a2-8a4c-4fe6-84f0-6d2f79431cc7",
+      "user_id": "user-001",
+      "items": [
+        {
+          "product_id": "prod-011",
+          "product_name": "Vestido Longo Festa",
+          "quantity": 1,
+          "size": "M",
+          "color": "Dourado",
+          "unit_price": 349.9,
+          "subtotal": 349.9
+        }
+      ],
+      "status": "pendente",
+      "total": 349.9,
+      "created_at": "2026-02-25T11:51:16.521052",
       "shipping_address": "Rua das Flores, 123 - São Paulo, SP"
     }
   ]
