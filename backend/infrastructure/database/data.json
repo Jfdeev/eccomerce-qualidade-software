@@ -1,0 +1,858 @@
+{
+  "products": [
+    {
+      "id": "prod-001",
+      "name": "Camiseta Básica Algodão",
+      "description": "Camiseta básica em algodão 100% orgânico, confortável para uso diário. Acabamento premium com costura reforçada.",
+      "price": 59.9,
+      "category": "Camisetas",
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "colors": [
+        "Branco",
+        "Preto",
+        "Cinza",
+        "Azul Marinho"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+      "stock": 150,
+      "brand": "Urban Style",
+      "gender": "unissex",
+      "rating": 4.5,
+      "reviews_count": 234
+    },
+    {
+      "id": "prod-002",
+      "name": "Camiseta Estampada Tropical",
+      "description": "Camiseta com estampa tropical exclusiva, tecido leve e respirável. Ideal para o verão.",
+      "price": 79.9,
+      "category": "Camisetas",
+      "sizes": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "colors": [
+        "Verde",
+        "Azul",
+        "Laranja"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=400",
+      "stock": 75,
+      "brand": "Tropical Wear",
+      "gender": "masculino",
+      "rating": 4.2,
+      "reviews_count": 89
+    },
+    {
+      "id": "prod-003",
+      "name": "Camiseta Polo Classic",
+      "description": "Camiseta polo clássica com gola e botões, perfeita para ocasiões casuais e semi-formais.",
+      "price": 119.9,
+      "category": "Camisetas",
+      "sizes": [
+        "P",
+        "M",
+        "G",
+        "GG",
+        "XGG"
+      ],
+      "colors": [
+        "Branco",
+        "Preto",
+        "Azul Royal",
+        "Vermelho"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1625910513413-5fc421e0fd5c?w=400",
+      "stock": 60,
+      "brand": "Classic Fit",
+      "gender": "masculino",
+      "rating": 4.7,
+      "reviews_count": 156
+    },
+    {
+      "id": "prod-004",
+      "name": "Blusa Cropped Feminina",
+      "description": "Blusa cropped moderna com caimento perfeito, ideal para compor looks despojados e estilosos.",
+      "price": 69.9,
+      "category": "Camisetas",
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G"
+      ],
+      "colors": [
+        "Rosa",
+        "Branco",
+        "Preto",
+        "Lilás"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400",
+      "stock": 95,
+      "brand": "Bella Donna",
+      "gender": "feminino",
+      "rating": 4.6,
+      "reviews_count": 312
+    },
+    {
+      "id": "prod-005",
+      "name": "Calça Jeans Slim Fit",
+      "description": "Calça jeans slim fit com elastano para maior conforto e mobilidade. Lavagem escura moderna.",
+      "price": 189.9,
+      "category": "Calças",
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "colors": [
+        "Azul Escuro",
+        "Azul Claro",
+        "Preto"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400",
+      "stock": 120,
+      "brand": "Denim Co.",
+      "gender": "masculino",
+      "rating": 4.4,
+      "reviews_count": 287
+    },
+    {
+      "id": "prod-006",
+      "name": "Calça Jeans Skinny Feminina",
+      "description": "Calça jeans skinny de cintura alta, modelagem que valoriza a silhueta. Tecido premium com elasticidade.",
+      "price": 199.9,
+      "category": "Calças",
+      "sizes": [
+        "34",
+        "36",
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "colors": [
+        "Azul Escuro",
+        "Preto",
+        "Azul Médio"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400",
+      "stock": 85,
+      "brand": "Bella Donna",
+      "gender": "feminino",
+      "rating": 4.8,
+      "reviews_count": 445
+    },
+    {
+      "id": "prod-007",
+      "name": "Calça Jogger Moletom",
+      "description": "Calça jogger em moletom flanelado, perfeita para dias frios e momentos de lazer. Punho elástico.",
+      "price": 129.9,
+      "category": "Calças",
+      "sizes": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "colors": [
+        "Cinza Mescla",
+        "Preto",
+        "Azul Marinho"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=400",
+      "stock": 70,
+      "brand": "Comfort Zone",
+      "gender": "unissex",
+      "rating": 4.3,
+      "reviews_count": 178
+    },
+    {
+      "id": "prod-008",
+      "name": "Calça Social Slim",
+      "description": "Calça social com corte slim moderno, tecido leve com ótimo caimento. Ideal para trabalho e eventos.",
+      "price": 229.9,
+      "category": "Calças",
+      "sizes": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "colors": [
+        "Preto",
+        "Cinza Escuro",
+        "Azul Marinho"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400",
+      "stock": 45,
+      "brand": "Classic Fit",
+      "gender": "masculino",
+      "rating": 4.6,
+      "reviews_count": 134
+    },
+    {
+      "id": "prod-009",
+      "name": "Vestido Floral Midi",
+      "description": "Vestido midi com estampa floral delicada, tecido fluido e leve. Perfeito para primavera e verão.",
+      "price": 179.9,
+      "category": "Vestidos",
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "colors": [
+        "Floral Rosa",
+        "Floral Azul",
+        "Floral Amarelo"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400",
+      "stock": 55,
+      "brand": "Bella Donna",
+      "gender": "feminino",
+      "rating": 4.9,
+      "reviews_count": 523
+    },
+    {
+      "id": "prod-010",
+      "name": "Vestido Preto Básico",
+      "description": "O clássico vestido preto que não pode faltar no guarda-roupa. Versátil para diversas ocasiões.",
+      "price": 159.9,
+      "category": "Vestidos",
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G"
+      ],
+      "colors": [
+        "Preto"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400",
+      "stock": 40,
+      "brand": "Elegance",
+      "gender": "feminino",
+      "rating": 4.7,
+      "reviews_count": 389
+    },
+    {
+      "id": "prod-011",
+      "name": "Vestido Longo Festa",
+      "description": "Vestido longo elegante para festas e eventos especiais. Tecido cetim com brilho sutil.",
+      "price": 349.9,
+      "category": "Vestidos",
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G"
+      ],
+      "colors": [
+        "Vinho",
+        "Dourado",
+        "Azul Royal"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=400",
+      "stock": 25,
+      "brand": "Elegance",
+      "gender": "feminino",
+      "rating": 4.8,
+      "reviews_count": 201
+    },
+    {
+      "id": "prod-012",
+      "name": "Jaqueta Jeans Oversized",
+      "description": "Jaqueta jeans com modelagem oversized, estilo vintage. Lavagem clara desgastada.",
+      "price": 249.9,
+      "category": "Jaquetas",
+      "sizes": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "colors": [
+        "Azul Claro",
+        "Azul Escuro"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1551537482-f2075a1d41f2?w=400",
+      "stock": 35,
+      "brand": "Denim Co.",
+      "gender": "unissex",
+      "rating": 4.5,
+      "reviews_count": 167
+    },
+    {
+      "id": "prod-013",
+      "name": "Jaqueta de Couro Sintético",
+      "description": "Jaqueta estilo biker em couro sintético premium. Look moderno e atemporal com forro interno.",
+      "price": 329.9,
+      "category": "Jaquetas",
+      "sizes": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "colors": [
+        "Preto",
+        "Marrom"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400",
+      "stock": 30,
+      "brand": "Urban Style",
+      "gender": "unissex",
+      "rating": 4.6,
+      "reviews_count": 245
+    },
+    {
+      "id": "prod-014",
+      "name": "Moletom Canguru com Capuz",
+      "description": "Moletom canguru com capuz e bolso frontal. Tecido macio e quentinho, ideal para o inverno.",
+      "price": 169.9,
+      "category": "Moletons",
+      "sizes": [
+        "P",
+        "M",
+        "G",
+        "GG",
+        "XGG"
+      ],
+      "colors": [
+        "Cinza",
+        "Preto",
+        "Vinho",
+        "Verde Militar"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400",
+      "stock": 90,
+      "brand": "Comfort Zone",
+      "gender": "unissex",
+      "rating": 4.7,
+      "reviews_count": 456
+    },
+    {
+      "id": "prod-015",
+      "name": "Moletom Cropped Feminino",
+      "description": "Moletom cropped com design moderno, tecido peluciado por dentro. Estiloso e confortável.",
+      "price": 139.9,
+      "category": "Moletons",
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G"
+      ],
+      "colors": [
+        "Rosa",
+        "Branco",
+        "Lavanda",
+        "Bege"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400",
+      "stock": 65,
+      "brand": "Bella Donna",
+      "gender": "feminino",
+      "rating": 4.4,
+      "reviews_count": 198
+    },
+    {
+      "id": "prod-016",
+      "name": "Bermuda Cargo",
+      "description": "Bermuda cargo com bolsos laterais, tecido resistente. Perfeita para aventuras e dias casuais.",
+      "price": 119.9,
+      "category": "Shorts",
+      "sizes": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "colors": [
+        "Caqui",
+        "Verde Militar",
+        "Preto"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=400",
+      "stock": 75,
+      "brand": "Adventure Gear",
+      "gender": "masculino",
+      "rating": 4.3,
+      "reviews_count": 112
+    },
+    {
+      "id": "prod-017",
+      "name": "Short Saia Feminino",
+      "description": "Short saia com cintura alta e pregas frontais. Tecido confortável com caimento elegante.",
+      "price": 99.9,
+      "category": "Shorts",
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G"
+      ],
+      "colors": [
+        "Preto",
+        "Branco",
+        "Rose"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1583496661160-fb5886a0ebb0?w=400",
+      "stock": 50,
+      "brand": "Bella Donna",
+      "gender": "feminino",
+      "rating": 4.5,
+      "reviews_count": 87
+    },
+    {
+      "id": "prod-018",
+      "name": "Camisa Social Manga Longa",
+      "description": "Camisa social slim fit em algodão egípcio. Acabamento impecável para reuniões e eventos.",
+      "price": 189.9,
+      "category": "Camisas",
+      "sizes": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "colors": [
+        "Branco",
+        "Azul Claro",
+        "Rosa Claro"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400",
+      "stock": 55,
+      "brand": "Classic Fit",
+      "gender": "masculino",
+      "rating": 4.8,
+      "reviews_count": 321
+    },
+    {
+      "id": "prod-019",
+      "name": "Camisa Xadrez Flanela",
+      "description": "Camisa xadrez em flanela macia, estilo lenhador moderno. Ótima para looks casuais no inverno.",
+      "price": 149.9,
+      "category": "Camisas",
+      "sizes": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "colors": [
+        "Vermelho/Preto",
+        "Azul/Branco",
+        "Verde/Preto"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1589310243389-96a5483213a8?w=400",
+      "stock": 40,
+      "brand": "Adventure Gear",
+      "gender": "unissex",
+      "rating": 4.4,
+      "reviews_count": 156
+    },
+    {
+      "id": "prod-020",
+      "name": "Saia Midi Plissada",
+      "description": "Saia midi plissada com tecido fluido e elegante. Cintura elástica para maior conforto.",
+      "price": 139.9,
+      "category": "Saias",
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "colors": [
+        "Preto",
+        "Nude",
+        "Verde Esmeralda"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1583496661160-fb5886a0ebb0?w=400",
+      "stock": 45,
+      "brand": "Elegance",
+      "gender": "feminino",
+      "rating": 4.6,
+      "reviews_count": 178
+    },
+    {
+      "id": "prod-021",
+      "name": "Blazer Feminino Alfaiataria",
+      "description": "Blazer estruturado com corte alfaiataria impecável. Versatilidade do casual ao formal.",
+      "price": 289.9,
+      "category": "Jaquetas",
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G"
+      ],
+      "colors": [
+        "Preto",
+        "Branco",
+        "Bege"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400",
+      "stock": 30,
+      "brand": "Elegance",
+      "gender": "feminino",
+      "rating": 4.9,
+      "reviews_count": 267
+    },
+    {
+      "id": "prod-022",
+      "name": "Regata Fitness Dry Fit",
+      "description": "Regata em tecido dry fit de alta performance. Secagem rápida e máximo conforto para treinos.",
+      "price": 49.9,
+      "category": "Camisetas",
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "colors": [
+        "Preto",
+        "Azul",
+        "Verde Neon",
+        "Cinza"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400",
+      "stock": 200,
+      "brand": "Sport Active",
+      "gender": "unissex",
+      "rating": 4.3,
+      "reviews_count": 543
+    },
+    {
+      "id": "prod-023",
+      "name": "Legging Fitness Cintura Alta",
+      "description": "Legging de compressão com cintura alta, tecido que não marca. Ideal para academia e yoga.",
+      "price": 89.9,
+      "category": "Calças",
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "colors": [
+        "Preto",
+        "Cinza",
+        "Vinho",
+        "Azul Marinho"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400",
+      "stock": 130,
+      "brand": "Sport Active",
+      "gender": "feminino",
+      "rating": 4.7,
+      "reviews_count": 678
+    },
+    {
+      "id": "prod-024",
+      "name": "Casaco Puffer",
+      "description": "Casaco puffer acolchoado, extremamente quente e leve. Design moderno com zíper frontal.",
+      "price": 299.9,
+      "category": "Jaquetas",
+      "sizes": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "colors": [
+        "Preto",
+        "Branco",
+        "Vermelho",
+        "Azul"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1544923246-77307dd270b1?w=400",
+      "stock": 40,
+      "brand": "Urban Style",
+      "gender": "unissex",
+      "rating": 4.8,
+      "reviews_count": 312
+    },
+    {
+      "id": "prod-025",
+      "name": "Camiseta Long Line",
+      "description": "Camiseta long line com barra arredondada, modelagem alongada moderna. Tecido macio premium.",
+      "price": 69.9,
+      "category": "Camisetas",
+      "sizes": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "colors": [
+        "Preto",
+        "Branco",
+        "Caqui",
+        "Olive"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=400",
+      "stock": 85,
+      "brand": "Urban Style",
+      "gender": "masculino",
+      "rating": 4.2,
+      "reviews_count": 145
+    },
+    {
+      "id": "prod-026",
+      "name": "Conjunto Moletom Feminino",
+      "description": "Conjunto de moletom com calça e blusa cropped. Conforto e estilo para o dia a dia.",
+      "price": 219.9,
+      "category": "Moletons",
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G"
+      ],
+      "colors": [
+        "Bege",
+        "Cinza",
+        "Rosa",
+        "Preto"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1521577352947-9bb58764b69a?w=400",
+      "stock": 50,
+      "brand": "Comfort Zone",
+      "gender": "feminino",
+      "rating": 4.6,
+      "reviews_count": 234
+    },
+    {
+      "id": "prod-027",
+      "name": "Calça Wide Leg",
+      "description": "Calça wide leg com cintura alta e pernas amplas. Tendência da moda com máximo conforto.",
+      "price": 169.9,
+      "category": "Calças",
+      "sizes": [
+        "34",
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "colors": [
+        "Preto",
+        "Bege",
+        "Jeans Claro"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400",
+      "stock": 60,
+      "brand": "Bella Donna",
+      "gender": "feminino",
+      "rating": 4.5,
+      "reviews_count": 189
+    },
+    {
+      "id": "prod-028",
+      "name": "Camiseta Oversized",
+      "description": "Camiseta oversized com estampa nas costas, modelagem ampla e confortável. Streetwear autêntico.",
+      "price": 89.9,
+      "category": "Camisetas",
+      "sizes": [
+        "M",
+        "G",
+        "GG",
+        "XGG"
+      ],
+      "colors": [
+        "Preto",
+        "Branco",
+        "Bege"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400",
+      "stock": 100,
+      "brand": "Street Culture",
+      "gender": "unissex",
+      "rating": 4.4,
+      "reviews_count": 267
+    },
+    {
+      "id": "prod-029",
+      "name": "Saia Jeans Curta",
+      "description": "Saia jeans curta com barra desfiada, estilo jovem e despojado. Cintura alta valoriza a silhueta.",
+      "price": 109.9,
+      "category": "Saias",
+      "sizes": [
+        "34",
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "colors": [
+        "Azul Claro",
+        "Azul Escuro"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1592301933927-35b597393c0a?w=400",
+      "stock": 55,
+      "brand": "Denim Co.",
+      "gender": "feminino",
+      "rating": 4.3,
+      "reviews_count": 145
+    },
+    {
+      "id": "prod-030",
+      "name": "Suéter Tricô Gola V",
+      "description": "Suéter em tricô macio com gola V, peça atemporal para o inverno. Combina com camisas e camisetas.",
+      "price": 159.9,
+      "category": "Moletons",
+      "sizes": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "colors": [
+        "Bege",
+        "Cinza",
+        "Azul Marinho",
+        "Vinho"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1434389677669-e08b4cda3a01?w=400",
+      "stock": 45,
+      "brand": "Classic Fit",
+      "gender": "unissex",
+      "rating": 4.7,
+      "reviews_count": 198
+    }
+  ],
+  "users": [
+    {
+      "id": "user-001",
+      "name": "João Silva",
+      "email": "joao@email.com",
+      "password_hash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+      "address": "Rua das Flores, 123 - São Paulo, SP",
+      "phone": "(11) 99999-1234"
+    },
+    {
+      "id": "user-002",
+      "name": "Maria Santos",
+      "email": "maria@email.com",
+      "password_hash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+      "address": "Av. Brasil, 456 - Rio de Janeiro, RJ",
+      "phone": "(21) 98888-5678"
+    },
+    {
+      "id": "user-003",
+      "name": "Carlos Oliveira",
+      "email": "carlos@email.com",
+      "password_hash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+      "address": "Rua XV de Novembro, 789 - Curitiba, PR",
+      "phone": "(41) 97777-9012"
+    }
+  ],
+  "orders": [
+    {
+      "id": "order-001",
+      "user_id": "user-001",
+      "items": [
+        {
+          "product_id": "prod-001",
+          "product_name": "Camiseta Básica Algodão",
+          "quantity": 2,
+          "size": "M",
+          "color": "Preto",
+          "unit_price": 59.9,
+          "subtotal": 119.8
+        },
+        {
+          "product_id": "prod-005",
+          "product_name": "Calça Jeans Slim Fit",
+          "quantity": 1,
+          "size": "42",
+          "color": "Azul Escuro",
+          "unit_price": 189.9,
+          "subtotal": 189.9
+        }
+      ],
+      "status": "entregue",
+      "total": 309.7,
+      "created_at": "2026-01-15T10:30:00",
+      "shipping_address": "Rua das Flores, 123 - São Paulo, SP"
+    },
+    {
+      "id": "order-002",
+      "user_id": "user-002",
+      "items": [
+        {
+          "product_id": "prod-009",
+          "product_name": "Vestido Floral Midi",
+          "quantity": 1,
+          "size": "M",
+          "color": "Floral Rosa",
+          "unit_price": 179.9,
+          "subtotal": 179.9
+        }
+      ],
+      "status": "enviado",
+      "total": 179.9,
+      "created_at": "2026-02-20T14:15:00",
+      "shipping_address": "Av. Brasil, 456 - Rio de Janeiro, RJ"
+    },
+    {
+      "id": "4406c4f8-a3d8-4d05-9c01-4d2d962d800f",
+      "user_id": "user-001",
+      "items": [
+        {
+          "product_id": "prod-001",
+          "product_name": "Camiseta Básica Algodão",
+          "quantity": 1,
+          "size": "G",
+          "color": "Branco",
+          "unit_price": 59.9,
+          "subtotal": 59.9
+        }
+      ],
+      "status": "cancelado",
+      "total": 59.9,
+      "created_at": "2026-02-24T22:20:27.681316",
+      "shipping_address": "Rua das Flores, 123 - São Paulo, SP"
+    },
+    {
+      "id": "2faa619a-f515-45d0-8f80-b0b5dc0ac28f",
+      "user_id": "user-001",
+      "items": [
+        {
+          "product_id": "prod-002",
+          "product_name": "Camiseta Estampada Tropical",
+          "quantity": 5,
+          "size": "G",
+          "color": "Azul",
+          "unit_price": 79.9,
+          "subtotal": 399.5
+        }
+      ],
+      "status": "pendente",
+      "total": 399.5,
+      "created_at": "2026-02-24T22:24:30.519506",
+      "shipping_address": "Rua das Flores, 123 - São Paulo, SP"
+    }
+  ]
+}
