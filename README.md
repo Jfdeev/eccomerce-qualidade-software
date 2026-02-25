@@ -25,7 +25,6 @@ E-commerce de roupas completo desenvolvido com foco em **boas práticas de engen
 - **Node.js 18+** instalado
 
 ### Manual (passo a passo)
-
 **Terminal 1 — Backend:**
 ```bash
 cd backend
@@ -46,7 +45,6 @@ npm run dev
 | **Frontend** | http://localhost:5173 |
 | **Backend API** | http://localhost:8000 |
 | **Swagger (API Docs)** | http://localhost:8000/docs |
-| **ReDoc (API Docs)** | http://localhost:8000/redoc |
 
 ### Usuários de Teste
 | Email | Senha |
