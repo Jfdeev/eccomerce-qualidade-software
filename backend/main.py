@@ -41,6 +41,8 @@ import os
 import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 
 # Adiciona o diretório backend ao path
 sys.path.insert(0, os.path.dirname(__file__))
@@ -48,6 +50,9 @@ sys.path.insert(0, os.path.dirname(__file__))
 from infrastructure.web.routes.product_routes import router as product_router
 from infrastructure.web.routes.user_routes import router as user_router
 from infrastructure.web.routes.order_routes import router as order_router
+
+# Caminho para a pasta do frontend
+FRONTEND_DIR = os.path.join(os.path.dirname(__file__), '..', 'frontend')
 
 # --- Criação da aplicação ---
 app = FastAPI(
@@ -61,7 +66,7 @@ app = FastAPI(
 # --- CORS (permitir acesso do frontend) ---
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -76,6 +81,17 @@ app.include_router(order_router)
 @app.get("/", tags=["Health"])
 def health_check():
     """Verificação de saúde da API."""
+    return FileResponse(os.path.join(FRONTEND_DIR, 'index.html'))
+
+
+# --- Servir arquivos estáticos do frontend ---
+app.mount("/css", StaticFiles(directory=os.path.join(FRONTEND_DIR, "css")), name="css")
+app.mount("/js", StaticFiles(directory=os.path.join(FRONTEND_DIR, "js")), name="js")
+
+
+@app.get("/health", tags=["Health"])
+def api_health():
+    """Health check da API."""
     return {
         "status": "online",
         "message": "Fashion Store API está funcionando!",

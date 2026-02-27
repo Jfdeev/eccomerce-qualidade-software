@@ -171,7 +171,7 @@
         "Azul Marinho"
       ],
       "image_url": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=400",
-      "stock": 70,
+      "stock": 69,
       "brand": "Comfort Zone",
       "gender": "unissex",
       "rating": 4.3,
@@ -871,6 +871,25 @@
       "status": "pendente",
       "total": 349.9,
       "created_at": "2026-02-25T11:51:16.521052",
+      "shipping_address": "Rua das Flores, 123 - São Paulo, SP"
+    },
+    {
+      "id": "648d2267-8341-4383-bca9-3581d8c91207",
+      "user_id": "user-001",
+      "items": [
+        {
+          "product_id": "prod-007",
+          "product_name": "Calça Jogger Moletom",
+          "quantity": 1,
+          "size": "G",
+          "color": "Cinza Mescla",
+          "unit_price": 129.9,
+          "subtotal": 129.9
+        }
+      ],
+      "status": "pendente",
+      "total": 129.9,
+      "created_at": "2026-02-26T22:06:33.631496",
       "shipping_address": "Rua das Flores, 123 - São Paulo, SP"
     }
   ]

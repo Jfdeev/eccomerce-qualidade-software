@@ -1,14 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fashion Store - E-commerce de Roupas</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fashion Store - E-commerce de Roupas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="header-container">
+      <a href="#" class="header-logo" onclick="navigateTo('home')">
+        <span class="logo-icon">👗</span>
+        <span class="logo-text">Fashion Store</span>
+      </a>
+
+      <nav class="header-nav">
+        <a href="#" class="nav-link" onclick="navigateTo('home')">Início</a>
+        <a href="#" class="nav-link" onclick="navigateTo('home', {category:'Camisetas'})">Camisetas</a>
+        <a href="#" class="nav-link" onclick="navigateTo('home', {category:'Calças'})">Calças</a>
+        <a href="#" class="nav-link" onclick="navigateTo('home', {category:'Vestidos'})">Vestidos</a>
+        <a href="#" class="nav-link" onclick="navigateTo('home', {category:'Jaquetas'})">Jaquetas</a>
+      </nav>
+
+      <div class="header-actions" id="header-actions">
+        <!-- Preenchido via JS -->
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="main-content" id="app">
+    <!-- Conteúdo das páginas injetado via JS -->
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>👗 Fashion Store</h3>
+        <p>E-commerce de roupas desenvolvido como material didático para a disciplina de Qualidade de Software.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Arquitetura</h4>
+        <ul>
+          <li>Backend: Python + FastAPI</li>
+          <li>Frontend: HTML + CSS + JS</li>
+          <li>Padrão: Hexagonal + SOLID</li>
+          <li>Banco: JSON File</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="/docs" target="_blank">API Docs (Swagger)</a></li>
+          <li><a href="/redoc" target="_blank">API Docs (ReDoc)</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Fashion Store — Qualidade de Software</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== TOAST CONTAINER ===== -->
+  <div id="toast-container"></div>
+
+  <!-- ===== SCRIPTS ===== -->
+  <script src="js/api.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/toast.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/pages/home.js"></script>
+  <script src="js/pages/productDetail.js"></script>
+  <script src="js/pages/login.js"></script>
+  <script src="js/pages/register.js"></script>
+  <script src="js/pages/cart.js"></script>
+  <script src="js/pages/checkout.js"></script>
+  <script src="js/pages/orders.js"></script>
+  <script src="js/app.js"></script>
+</body>
 </html>
