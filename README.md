@@ -11,40 +11,48 @@ E-commerce de roupas completo desenvolvido com foco em **boas práticas de engen
 | Camada | Tecnologia |
 |--------|-----------|
 | **Backend** | Python 3.10+ / FastAPI |
-| **Frontend** | React 18 / Vite |
+| **Frontend** | HTML + CSS + JavaScript (puro) |
 | **Banco de Dados** | Arquivo JSON |
 | **Arquitetura** | Hexagonal (Ports & Adapters) |
 | **Princípios** | SOLID |
 
 ---
 
-## 🚀 Como Iniciar (Rápido)
+## 🚀 Como Iniciar
 
 ### Pré-requisitos
 - **Python 3.10+** instalado
-- **Node.js 18+** instalado
 
-### Manual (passo a passo)
-**Terminal 1 — Backend:**
+> **Nota:** Não é necessário Node.js. O frontend é servido diretamente pelo backend.
+
+### Passo a passo
+
 ```bash
+# 1. Crie e ative o ambiente virtual
+python -m venv .venv
+
+# Windows
+.venv\Scripts\activate
+
+# Linux/Mac
+source .venv/bin/activate
+
+# 2. Instale as dependências
 cd backend
 pip install -r requirements.txt
+
+# 3. Inicie a aplicação
 python main.py
 ```
 
-**Terminal 2 — Frontend:**
-```bash
-cd frontend
-npm install
-npm run dev
-```
+Pronto! Acesse **http://localhost:8000** no navegador.
 
 ### Acessos
 | Serviço | URL |
 |---------|-----|
-| **Frontend** | http://localhost:5173 |
-| **Backend API** | http://localhost:8000 |
+| **Aplicação (Frontend + API)** | http://localhost:8000 |
 | **Swagger (API Docs)** | http://localhost:8000/docs |
+| **ReDoc (API Docs)** | http://localhost:8000/redoc |
 
 ### Usuários de Teste
 | Email | Senha |
@@ -123,33 +131,25 @@ npm run dev
 │   ├── main.py                        # Entry point
 │   └── requirements.txt
 │
-├── 📂 frontend/
-│   ├── 📂 src/
-│   │   ├── 📂 components/            # Componentes reutilizáveis
-│   │   │   ├── Header/
-│   │   │   ├── Footer/
-│   │   │   ├── ProductCard/
-│   │   │   └── CartItem/
-│   │   ├── 📂 pages/                 # Páginas da aplicação
-│   │   │   ├── Home/
-│   │   │   ├── ProductDetail/
-│   │   │   ├── Cart/
-│   │   │   ├── Checkout/
-│   │   │   ├── Login/
-│   │   │   ├── Register/
-│   │   │   └── Orders/
-│   │   ├── 📂 context/               # Estado global (React Context)
-│   │   │   ├── CartContext.jsx
-│   │   │   └── AuthContext.jsx
-│   │   ├── 📂 services/              # Comunicação com API
-│   │   │   └── api.js
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── package.json
-│   └── vite.config.js
+├── 📂 frontend/                       # Frontend (HTML + CSS + JS puro)
+│   ├── index.html                     # Página principal (SPA)
+│   ├── 📂 css/
+│   │   └── styles.css                 # Estilos da aplicação
+│   └── 📂 js/
+│       ├── api.js                     # Serviço de API (chamadas HTTP)
+│       ├── state.js                   # Estado global (auth + carrinho)
+│       ├── toast.js                   # Notificações toast
+│       ├── router.js                  # Router SPA + helpers
+│       ├── app.js                     # Inicialização
+│       └── 📂 pages/                 # Páginas da aplicação
+│           ├── home.js
+│           ├── productDetail.js
+│           ├── cart.js
+│           ├── checkout.js
+│           ├── login.js
+│           ├── register.js
+│           └── orders.js
 │
-├── start.bat                          # Script Windows
-├── start.sh                           # Script Linux/Mac
 └── README.md
 ```
 
